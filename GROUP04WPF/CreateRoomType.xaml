@@ -1,0 +1,69 @@
+﻿<Window x:Class="GROUP04WPF.CreateRoomType"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GROUP04WPF"
+        mc:Ignorable="d"
+        Title="CreateRoomType" Height="400" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0099FF" Offset="0"/>
+                <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                <GradientStop Color="#FF60B1E7" Offset="1"/>
+                <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                <GradientStop Color="#FF472FDE" Offset="0.484"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Create Room Type" FontFamily="Montserrat" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <Grid Margin="50,109,50,108">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Room Type Name:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+            <TextBox x:Name="txtTypeName" Grid.Row="0" Grid.Column="1" Margin="5"/>
+            <Label Content="Type Description:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+            <TextBox x:Name="txtDescription" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+            <Label Content="Type Note:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+            <TextBox x:Name="txtNote" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="5">
+                <Button x:Name="CreateButton" Content="Create" Width="100" Margin="5" Click="CreateButton_Click" Background="#FF0099FF">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border 
+    CornerRadius="5"
+    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="CancelButton" Content="Cancel" Width="100" Margin="5" Click="CancelButton_Click" Background="#FFEF8F18">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border 
+CornerRadius="5"
+Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+              HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

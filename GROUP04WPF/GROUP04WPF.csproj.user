@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BookingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeInfor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeRoomType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangesPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateInfor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateRoomType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegisterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

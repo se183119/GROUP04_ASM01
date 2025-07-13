@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\createreservation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\createreservation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\changereservation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\changereservation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|c:\\users\\hp\\desktop\\group04_asm01_duphong\\group04wpf\\createroomtype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8914EA5-FD52-4FC7-9AA2-3549A14C2B79}|GROUP04WPF\\GROUP04WPF.csproj|solutionrelative:group04wpf\\createroomtype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\BookingWindow.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\BookingWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\BookingWindow.xaml",
+              "RelativeToolTip": "GROUP04WPF\\BookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:32:39.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateReservation.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CreateReservation.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\CreateReservation.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CreateReservation.xaml",
+              "RelativeToolTip": "GROUP04WPF\\CreateReservation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:31:36.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GROUP04WPF\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "GROUP04WPF\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T00:16:04.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangeReservation.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\ChangeReservation.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\ChangeReservation.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\ChangeReservation.xaml",
+              "RelativeToolTip": "GROUP04WPF\\ChangeReservation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:13:14.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\LoginWindow.xaml",
+              "RelativeToolTip": "GROUP04WPF\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-13T18:10:37.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\AdminWindow.xaml",
+              "RelativeToolTip": "GROUP04WPF\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:34:26.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateRoomType.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CreateRoomType.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\CreateRoomType.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CreateRoomType.xaml",
+              "RelativeToolTip": "GROUP04WPF\\CreateRoomType.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:13:10.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CustomerWindow.xaml",
+              "RelativeDocumentMoniker": "GROUP04WPF\\CustomerWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\GROUP04_ASM01_duphong\\GROUP04WPF\\CustomerWindow.xaml",
+              "RelativeToolTip": "GROUP04WPF\\CustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T00:12:48.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

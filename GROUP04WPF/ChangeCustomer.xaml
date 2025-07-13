@@ -1,0 +1,79 @@
+﻿<Window x:Class="GROUP04WPF.ChangeCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GROUP04WPF"
+        mc:Ignorable="d"
+        Title="ChangeCustomer" Height="500" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0099FF" Offset="0"/>
+                <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                <GradientStop Color="#FF60B1E7" Offset="1"/>
+                <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                <GradientStop Color="#FF472FDE" Offset="0.484"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Manage Customer" FontFamily="Montserrat" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <Grid Margin="55,99,55,42">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="133*"/>
+                <ColumnDefinition Width="200*"/>
+                <ColumnDefinition Width="67*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Search ID:" Grid.Row="0" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtSearchId" Grid.Row="0" Grid.Column="1" Margin="5,5,5,5"/>
+            <Button x:Name="btnSearch" Content="Search" Width="60" Margin="11,5,11,0" Grid.Row="0" Grid.Column="2" Click="SearchButton_Click" Background="#FF0099FF" Height="26" VerticalAlignment="Top">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border 
+CornerRadius="5"
+Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+              HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Label Content="Full Name:" Grid.Row="1" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtFullName" Grid.Row="1" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <Label Content="Telephone:" Grid.Row="2" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtTelephone" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <Label Content="Email:" Grid.Row="3" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtEmail" Grid.Row="3" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <Label Content="Birthday:" Grid.Row="4" Grid.Column="0" Margin="5,5,5,5"/>
+            <DatePicker x:Name="txtBirthday" Grid.Row="4" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <Label Content="Status:" Grid.Row="5" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtStatus" Grid.Row="5" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <Label Content="Password:" Grid.Row="6" Grid.Column="0" Margin="5,5,5,5"/>
+            <TextBox x:Name="txtPassword" Grid.Row="6" Grid.Column="1" Margin="5,5,5,5" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.ColumnSpan="2" Width="312">
+                <Button x:Name="btnUpdate" Content="Update" Width="100" Margin="2" Click="UpdateButton_Click" Background="#FF0099FF" IsEnabled="False"/>
+                <Button x:Name="btnDelete" Content="Delete" Width="100" Margin="2" Click="DeleteButton_Click" Background="#FFEF8F18" IsEnabled="False"/>
+                <Button x:Name="btnSave" Content="Save" Width="100" Margin="2" Click="SaveButton_Click" Background="#FF8F00FF" IsEnabled="False"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
