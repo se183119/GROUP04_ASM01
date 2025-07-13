@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GROUP04WPF"
         mc:Ignorable="d"
-        Title="FU Mini Hotel System" Height="450" Width="800"
+        Title="Smoking Cessation Support Platform" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="Transparent"
@@ -34,13 +34,13 @@
                 <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Center"
                         Height="82" VerticalAlignment="Top" Width="632">
-                    <TextBlock Text="FU Mini Hotel System"
+                    <TextBlock Text="Smoking Cessation Support Platform"
                            Foreground="White"
-                           FontSize="28"
+                           FontSize="26"
                            FontWeight="Medium"
                            FontFamily="Montserrat"
                            Cursor="Hand"
-                           Margin="180,30,0,0" Width="377"/>
+                           Margin="100,30,0,0" Width="500"/>
                 </StackPanel>
                 <StackPanel Orientation="Vertical"
                         Margin="82,102,82,68">
