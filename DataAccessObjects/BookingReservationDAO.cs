@@ -13,14 +13,14 @@ namespace DataAccessObjects
 
         public void CreateBookingReservation(BookingReservation reservation)
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             context.BookingReservations.Add(reservation);
             context.SaveChanges();
         }
 
         public void DeleteBookingReservation(int id)
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             var history = context.BookingReservations.FirstOrDefault(br => br.BookingReservationId == id);
             history.BookingStatus = 0;
             context.BookingReservations.Update(history);
@@ -29,7 +29,7 @@ namespace DataAccessObjects
 
         public List<BookingReservation> GetAvailableBookingReservation()
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             List<BookingReservation> list = context.BookingReservations
                 .Where(br => br.BookingStatus == 1)
                 .Include(br => br.Customer)
@@ -39,13 +39,13 @@ namespace DataAccessObjects
 
         public BookingReservation GetBookingReservation(int id)
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             return context.BookingReservations.Include(br => br.Customer).Include(br => br.BookingDetails).FirstOrDefault(br => br.BookingReservationId == id);
         }
 
         public List<BookingReservation> GetBookingReservationList()
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             List<BookingReservation> bookingsList = context.BookingReservations
                 .Include(br => br.Customer)
                 .ToList();
@@ -54,13 +54,13 @@ namespace DataAccessObjects
 
         public int GetMaxBookingReservationId()
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             return context.BookingReservations.Max(br => br.BookingReservationId);
         }
 
         public List<BookingReservation> GetReservationsByCustomerId(int customerId)
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             List<BookingReservation> list = context.BookingReservations
                 .Include(br => br.Customer)
                 .Where(br => br.CustomerId == customerId && br.BookingStatus == 1)
@@ -70,7 +70,7 @@ namespace DataAccessObjects
 
         public void UpdateBookingReservation(BookingReservation reservation)
         {
-            using var context = new FuminiHotelManagementContext();
+            using var context = new SmokingCessationContext();
             context.BookingReservations.Update(reservation);
             context.SaveChanges();
         }
