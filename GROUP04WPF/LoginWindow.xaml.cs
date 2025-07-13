@@ -41,6 +41,7 @@ namespace GROUP04WPF
             string adminEmail = config["DefaultAdminAccount:Email"];
             string adminPassword = config["DefaultAdminAccount:Password"];
 
+            // Check if this is the default admin login
             if (email == adminEmail && password == adminPassword)
             {
                 AdminWindow adminWindow = new AdminWindow();
@@ -53,21 +54,51 @@ namespace GROUP04WPF
 
             if (customer != null && customer.Password == password)
             {
-                if (customer.CustomerStatus == 1)
+                if (customer.CustomerStatus == 1) // Active status
                 {
-                    Application.Current.Resources["email"] = txtUser.Text;
-                    CustomerWindow customerWindow = new CustomerWindow();
-                    customerWindow.Show();
+                    // Store user information for the session
+                    Application.Current.Resources["email"] = email;
+                    Application.Current.Resources["userId"] = customer.CustomerId;
+                    Application.Current.Resources["userRole"] = customer.Role;
+                    Application.Current.Resources["userName"] = customer.CustomerFullName;
+
+                    // Update last login date
+                    customer.LastLoginDate = DateTime.Now;
+                    _customerRepository.UpdateCustomer(customer);
+
+                    // Navigate based on role
+                    switch (customer.Role)
+                    {
+                        case BusinessObjects.UserRole.Admin:
+                            AdminWindow adminWindow = new AdminWindow();
+                            adminWindow.Show();
+                            break;
+                        case BusinessObjects.UserRole.Coach:
+                            CoachDashboard coachDashboard = new CoachDashboard();
+                            coachDashboard.Show();
+                            break;
+                        case BusinessObjects.UserRole.Member:
+                            MemberDashboard memberDashboard = new MemberDashboard();
+                            memberDashboard.Show();
+                            break;
+                        case BusinessObjects.UserRole.Guest:
+                        default:
+                            GuestDashboard guestDashboard = new GuestDashboard();
+                            guestDashboard.Show();
+                            break;
+                    }
                     Close();
                 }
                 else
                 {
-                    MessageBox.Show("Your account was banned!");
+                    MessageBox.Show("Your account is inactive. Please contact support.", "Account Inactive", 
+                        MessageBoxButton.OK, MessageBoxImage.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Invalid email or password");
+                MessageBox.Show("Invalid email or password", "Login Failed", 
+                    MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

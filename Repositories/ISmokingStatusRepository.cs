@@ -1,0 +1,16 @@
+using BusinessObjects;
+using System;
+using System.Collections.Generic;
+
+namespace Repositories
+{
+    public interface ISmokingStatusRepository
+    {
+        List<SmokingStatus> GetSmokingStatusesByCustomerId(int customerId);
+        SmokingStatus GetSmokingStatusById(int statusId);
+        void CreateSmokingStatus(SmokingStatus status);
+        void UpdateSmokingStatus(SmokingStatus status);
+        void DeleteSmokingStatus(int statusId);
+        SmokingStatus GetLatestSmokingStatusByCustomerId(int customerId);
+    }
+}
